@@ -96,7 +96,7 @@ def run():
             response = client.post(url, json=body, headers=headers)
 
         if response.status_code == 200:
-            print(f"\n[-] WORK ON ID: {referrer}")
+            print(f"\n[-] WORK ON ID: {8bbc992f-05aa-4e58-8007-0ab15cec3697}")
             print(f"[:)] Request completed successfully.")
             return True
         else:
